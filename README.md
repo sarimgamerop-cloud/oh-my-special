@@ -35,3 +35,37 @@ oh-my-special/
 ├── commands.py       # Command logic & execution
 ├── config.py         # Optional configuration (future)
 └── README.md
+```
+
+## Installation 
+
+**Start** by copying the repository :
+```
+git clone https://github.com/sarimgamerop-cloud/oh-my-special.git
+cd oh-my-special
+```
+***Note:*** cloning the repository in the ``C:/Users`` or ``/home`` is recommended.
+
+**Install the required fonts:**
+- # For Windows 10/11 :
+  
+  ```
+  powershell
+  irm https://github.com/ryanoasis/nerd-fonts/releases/latest/download/IosevkaTerm.zip -OutFile iosevka.zip Expand-Archive iosevka.zip -DestinationPath iosevka
+  ```
+  after the downloading is complete , you will see a ``iosevka.zip`` in the current-directory , extract the zip
+  and select all the fonts and install them by right clicking on the selected files. then hit install.
+
+- # Linux :
+- 
+  **Linux** user can either install the fonts by using their package manager , or either by downloading them.
+  # Arch:
+
+  ```
+  sudo pacman -S ttf-iosevka-nerd
+  ```
+  # Fedora
+
+  ```
+  sudo dnf install nerd-fonts-iosevka
+  ```
