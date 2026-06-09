@@ -1,6 +1,5 @@
 # 🚀 Oh-My-Special
-
-![Oh-My-Special Logo](Previews/logo.png)
+![Oh-My-Special Logo](logo.png)
 
 A lightweight, extensible custom shell built in Python.  
 Designed for learning how real terminal environments, command parsing, and system-level interactions work under the hood.
